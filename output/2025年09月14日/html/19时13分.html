@@ -1,0 +1,82 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-09-14 19:13:46</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">科技 热点 股市 新闻 美股 热搜 动漫 音乐 财经 经济 政策 电影 金融 战争 黄金 石油 豆粕 美元指数 离岸人民币 A股 上证 深证 创业板 科创板 游戏 视频 国外 美国 中东 欧洲 法国 英国 德国 北美 南美 非洲 亚洲 印度 日本 韩国 俄罗斯 朝鲜 中国 国内 北京 天津 上海 河北 山西 辽宁 吉林 黑龙江 江苏 浙江 安徽 福建 江西 山东 河南 湖北 湖南 广东 海南 四川 贵州 云南 陕西 甘肃 青海 台湾 内蒙古 广西 西藏 宁夏 新疆 香港 澳门 重庆 世界 印度 地球 经济 娱乐 推荐 最新 突发 重大 国家</td>
+                    <td class="count">52</td>
+                    <td class="percentage">20.39%</td>
+                    <td class="titles">[百度热搜] <a href="https://www.baidu.com/s?wd=%E7%8E%8B%E6%AF%85%E8%A1%A8%E6%80%81%EF%BC%9A%E4%B8%AD%E6%96%B9%E4%B8%8D%E5%8F%82%E4%B8%8E%E4%B8%8D%E7%AD%96%E5%88%92%E6%88%98%E4%BA%89" target="_blank" class="news-link">王毅表态：中方不参与不策划战争</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时13分</font><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28344999&amp;amp;topic_name=%E6%87%82%E7%8E%8B%E6%8A%BD%E9%A3%8E%21%E9%80%BC%E5%8C%97%E7%BA%A6%E7%8B%A0%E5%AE%B0%E4%B8%AD%E5%9B%BD%E4%B8%80%E5%88%80" target="_blank" class="news-link">懂王抽风!逼北约狠宰中国一刀</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时13分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3755548" target="_blank" class="news-link"> “5个月大涨32%的美股”碰上“恢复降息的美联储”，下周会发生什么？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时13分</font><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28345003&amp;amp;topic_name=T1%E9%81%ADHLE%E9%9B%B6%E5%B0%81%21%E4%B8%96%E7%95%8C%E8%B5%9B%E6%82%AC%E4%BA%86" target="_blank" class="news-link">T1遭HLE零封!世界赛悬了</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时13分</font><br>[douyin] <a href="https://www.douyin.com/hot/2236162" target="_blank" class="news-link">北京冰雹与超级单体风暴有关</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时13分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31606640" target="_blank" class="news-link">商务部：对原产于美国的进口相关模拟芯片发起反倾销立案调查</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时13分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8mdV9oFfMkU" target="_blank" class="news-link">欧盟再玩新招：替俄罗斯“借钱”给乌克兰</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时13分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3755554" target="_blank" class="news-link"> 英美下周签署“突破性”科技协议，AI、量子计算在内，币圈游说“区块链”也应纳入</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时13分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8mdKdhN0iOh" target="_blank" class="news-link">欧洲26国承诺向乌部署保障部队，认知错位或增加战争风险</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时13分</font><br>[douyin] <a href="https://www.douyin.com/hot/2236718" target="_blank" class="news-link">王楚钦晋级澳门冠军赛决赛</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时13分</font><br>[zhihu] <a href="https://www.zhihu.com/question/1950289636074152480" target="_blank" class="news-link">9 月 13 日香飘飘发文称「香飘飘暂停绕地球」，这是什么意思？香飘飘目前的经营情况怎么样？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时13分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7549276787730189863/" target="_blank" class="news-link">山东多人称看到不明飞行物被击落</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时13分</font><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E4%B8%A2%E4%BA%86%E5%A4%A7%E5%8D%95" target="_blank" class="news-link">美国丢了大单</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时13分</font></div><br>[凤凰网] <a href="https://news.ifeng.com/c/8mdcuDy2T2u" target="_blank" class="news-link">鲁比奥谈以色列空袭卡塔尔：美国不高兴，但不影响美以关系</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时13分</font><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7549534093705396266/" target="_blank" class="news-link">北京这场冰雹为何这么强</a> [6] <font color='grey'>- 19时13分</font></div><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3755547" target="_blank" class="news-link">美国政府又面临“关门”！民主党开条件，不满足“9月底就关门”</a> [6] <font color='grey'>- 19时13分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8mdSL1Wz0Sy" target="_blank" class="news-link">美国又出一怪招，一箭三雕</a> [6] <font color='grey'>- 19时13分</font><br>[douyin] <a href="https://www.douyin.com/hot/2236402" target="_blank" class="news-link">电影731将在全球多地上映</a> [6] <font color='grey'>- 19时13分</font><br>[zhihu] <a href="https://www.zhihu.com/question/1950254951000405055" target="_blank" class="news-link">海南悬赏 10 万搜寻 1 架迫降无人机，目前搜寻进展如何？这架无人机有哪些特别之处？</a> [6] <font color='grey'>- 19时13分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8me0et0ZrNb" target="_blank" class="news-link">伦敦示威，马斯克视频喊话英政府下台</a> [7] <font color='grey'>- 19时13分</font><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28344991&amp;amp;topic_name=%E5%B1%B1%E4%B8%9C%E4%B8%8A%E7%A9%BA%E5%87%BB%E8%90%BD%E4%B8%8D%E6%98%8E%E7%89%A9%3F%E5%90%A7%E5%8F%8B%E7%A0%B4%E6%A1%88" target="_blank" class="news-link">山东上空击落不明物?吧友破案</a> [7] <font color='grey'>- 19时13分</font><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7549022793984229385/" target="_blank" class="news-link">美国防部10人因嘲笑柯克之死被解雇</a> [8] <font color='grey'>- 19时13分</font></div><br>[今日头条] <a href="https://www.toutiao.com/trending/7549816112200814123/" target="_blank" class="news-link">中国芯片企业陷入“被动跟跌”困境</a> [9] <font color='grey'>- 19时13分</font><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3755559" target="_blank" class="news-link">游戏，下一个创新药</a> [9] <font color='grey'>- 19时13分</font></div><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31605759" target="_blank" class="news-link">兵韬志略｜欧洲26国承诺向乌部署保障部队，认知错位或增加战争风险</a> [9] <font color='grey'>- 19时13分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2144300" target="_blank" class="news-link">海南悬赏10万：搜寻迫降无人机</a> [9] <font color='grey'>- 19时13分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E5%A4%A9%E6%96%87%E9%A6%86%E5%9B%9E%E5%BA%94%E6%B2%B3%E5%8D%97%E4%B8%80%E5%9C%B0%E7%8E%B0%E4%B8%8D%E6%98%8E%E9%A3%9E%E8%A1%8C%E7%89%A9" target="_blank" class="news-link">天文馆回应河南一地现不明飞行物</a> [10] <font color='grey'>- 19时13分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8md0Z6jJqoe" target="_blank" class="news-link">白岩松专访詹姆斯：感谢你6年前为中国说话，那是需要勇气的</a> [10] <font color='grey'>- 19时13分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7549408457076113444/" target="_blank" class="news-link">台名嘴：中国军事实力让美方震惊</a> [11] <font color='grey'>- 19时13分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E5%86%85%E8%92%99%E5%8F%A4%E4%B8%80%E5%9C%B0%E8%BE%9F%E8%B0%A3%E5%87%BA%E7%8E%B0%E6%8C%81%E5%88%80%E4%BC%A4%E4%BA%BA%E4%BA%8B%E4%BB%B6" target="_blank" class="news-link">内蒙古一地辟谣出现持刀伤人事件</a> [11] <font color='grey'>- 19时13分</font><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8me7AeO5fUC" target="_blank" class="news-link">河南商丘上空出现不明飞行物？天文馆回应</a> [11] <font color='grey'>- 19时13分</font></div><br>[zhihu] <a href="https://www.zhihu.com/question/1950303249136576143" target="_blank" class="news-link">广东家长质疑「全班收取近一万元班费」，官方回应称系家委组织系违规收费，家委会的职责和权利有哪些？</a> [11] <font color='grey'>- 19时13分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8mdv6WEs1c6" target="_blank" class="news-link">60岁张曼玉分享法国农村生活日常</a> [12] <font color='grey'>- 19时13分</font><br>[zhihu] <a href="https://www.zhihu.com/question/338502431" target="_blank" class="news-link">外国泡面厂商不觊觎中国市场吗?</a> [12] <font color='grey'>- 19时13分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7549636557632720425/" target="_blank" class="news-link">张曼玉定居法国农村钻鸡窝取鸡蛋</a> [13] <font color='grey'>- 19时13分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E8%BD%BD5%E5%90%8D%E4%B8%AD%E5%9B%BD%E4%BA%BA%E8%BD%A6%E9%98%9F%E9%9D%9E%E6%B4%B2%E9%81%87%E8%A2%AD+1%E4%BA%BA%E8%A2%AB%E7%BB%91%E6%9E%B6" target="_blank" class="news-link">载5名中国人车队非洲遇袭 1人被绑架</a> [13] <font color='grey'>- 19时13分</font><br>[zhihu] <a href="https://www.zhihu.com/question/1949856982438776952" target="_blank" class="news-link">黄鳝泥鳅这种在国内被视为滋补佳肴的淡水生物，为啥在西方餐桌上几乎绝迹？是文化不同还是口味差异？</a> [14] <font color='grey'>- 19时13分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7549307650740682815/" target="_blank" class="news-link">网友拍到北京的“冰河时代”</a> [15] <font color='grey'>- 19时13分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31609267" target="_blank" class="news-link">金与正：美日韩在朝鲜周边大秀肌肉选错了地方</a> [15] <font color='grey'>- 19时13分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31609261" target="_blank" class="news-link">人民日报政策问答·回应关切：离校毕业生的就业服务如何跟上</a> [16] <font color='grey'>- 19时13分</font><br>[zhihu] <a href="https://www.zhihu.com/question/1950574448454407890" target="_blank" class="news-link">2025 WTT 澳门冠军赛男单半决赛，王楚钦 4-0 张禹珍晋级，决赛再战雨果，如何评价本场比赛？</a> [17] <font color='grey'>- 19时13分</font><br><div class='new-title'>🆕 [zhihu] <a href="https://www.zhihu.com/question/656676183" target="_blank" class="news-link">在中国法庭上，可以当事人一句话不说，全由律师说吗？</a> [19] <font color='grey'>- 19时13分</font></div><br>[今日头条] <a href="https://www.toutiao.com/trending/7549452877875642422/" target="_blank" class="news-link">俄媒曝美军正研发25款武器对抗中国</a> [20] <font color='grey'>- 19时13分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31607765" target="_blank" class="news-link">如何让大模型听懂老人“话中有话”？上海创智学院这场课题展示很“哇塞”</a> [20] <font color='grey'>- 19时13分</font><br>[zhihu] <a href="https://www.zhihu.com/question/1950310444146320003" target="_blank" class="news-link">9 月 13 日孙颖莎 4-1 战胜迪亚斯，晋级 WTT 澳门冠军赛女单四强，如何评价本场比赛？</a> [20] <font color='grey'>- 19时13分</font><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%23%E6%97%A0%E8%AF%AD%E5%93%A5%E8%A2%AB%E9%87%8D%E5%BA%86%E7%81%AB%E9%94%85%E8%BE%A3%E5%87%BA%E6%96%B0%E8%A1%A8%E6%83%85%E5%8C%85%23" target="_blank" class="news-link">#无语哥被重庆火锅辣出新表情包#</a> [21] <font color='grey'>- 19时13分</font></div><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BF%84%E7%BD%97%E6%96%AF%E6%B5%B7%E5%86%9B%E2%80%9C%E5%8E%BB%E8%88%AA%E6%AF%8D%E5%8C%96%E2%80%9D" target="_blank" class="news-link">俄罗斯海军“去航母化”</a> [22] <font color='grey'>- 19时13分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC%E8%BF%99%E5%9C%BA%E5%86%B0%E9%9B%B9%E4%B8%BA%E4%BD%95%E5%A6%82%E6%AD%A4%E7%8C%9B%E7%83%88" target="_blank" class="news-link">北京这场冰雹为何如此猛烈</a> [23] <font color='grey'>- 19时13分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7549530965577400366/" target="_blank" class="news-link">北京的冰雹为何像下雪</a> [24] <font color='grey'>- 19时13分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7549360701354069545/" target="_blank" class="news-link">福建舰此次海试任务与前8次有何不同</a> [25] <font color='grey'>- 19时13分</font><br><div class='new-title'>🆕 [douyin] <a href="https://www.douyin.com/hot/2236895" target="_blank" class="news-link">记者：中东看清“美国保护”真相</a> [26] <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7549849044118408731/" target="_blank" class="news-link">专家：欧俄认知错位或增加战争风险</a> [27] <font color='grey'>- 19时13分</font></div></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 9 条)</h3>
+            <h4>今日头条 (3 条)</h4><ul><li><a href="https://www.toutiao.com/trending/7549534093705396266/" target="_blank" class="news-link">北京这场冰雹为何这么强</a> [6]</li><li><a href="https://www.toutiao.com/trending/7549022793984229385/" target="_blank" class="news-link">美国防部10人因嘲笑柯克之死被解雇</a> [8]</li><li><a href="https://www.toutiao.com/trending/7549849044118408731/" target="_blank" class="news-link">专家：欧俄认知错位或增加战争风险</a> [27]</li></ul><h4>百度热搜 (2 条)</h4><ul><li><a href="https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E4%B8%A2%E4%BA%86%E5%A4%A7%E5%8D%95" target="_blank" class="news-link">美国丢了大单</a> <font color='red'><strong>[5]</strong></font></li><li><a href="https://www.baidu.com/s?wd=%23%E6%97%A0%E8%AF%AD%E5%93%A5%E8%A2%AB%E9%87%8D%E5%BA%86%E7%81%AB%E9%94%85%E8%BE%A3%E5%87%BA%E6%96%B0%E8%A1%A8%E6%83%85%E5%8C%85%23" target="_blank" class="news-link">#无语哥被重庆火锅辣出新表情包#</a> [21]</li></ul><h4>华尔街见闻 (1 条)</h4><ul><li><a href="https://wallstreetcn.com/articles/3755559" target="_blank" class="news-link">游戏，下一个创新药</a> [9]</li></ul><h4>凤凰网 (1 条)</h4><ul><li><a href="https://news.ifeng.com/c/8me7AeO5fUC" target="_blank" class="news-link">河南商丘上空出现不明飞行物？天文馆回应</a> [11]</li></ul><h4>douyin (1 条)</h4><ul><li><a href="https://www.douyin.com/hot/2236895" target="_blank" class="news-link">记者：中东看清“美国保护”真相</a> [26]</li></ul><h4>zhihu (1 条)</h4><ul><li><a href="https://www.zhihu.com/question/656676183" target="_blank" class="news-link">在中国法庭上，可以当事人一句话不说，全由律师说吗？</a> [19]</li></ul></div>
+        </body>
+        </html>
+        
