@@ -220,7 +220,7 @@ display:
   standalone:
     platforms: ["zhihu", "wallstreetcn-hot"]     # 热榜平台 ID 列表（如 ["zhihu", "weibo"]）
     rss_feeds: []                     # RSS 源 ID 列表（如 ["hacker-news"]）
-    max_items: 20                     # 每个源最多展示条数（0=不限制）
+    max_items: 3                     # 每个源最多展示条数（0=不限制）
 
 
 # ===============================================================
@@ -255,7 +255,7 @@ notification:
       webhook_url: ""                 # 飞书机器人 webhook URL
 
     dingtalk:
-      webhook_url: ""                 # 钉钉机器人 webhook URL
+      webhook_url: "https://oapi.dingtalk.com/robot/send?access_token=eb79588f1aefe666378b9a96f10cf3b1200abe591fba9755943fa4f84de406d0"                 # 钉钉机器人 webhook URL
 
     wework:
       webhook_url: ""                 # 企业微信机器人 webhook URL
@@ -331,7 +331,7 @@ storage:
   # 用于 MCP Server 等场景：爬虫存到远程，MCP 拉取到本地分析
   pull:
     enabled: false                    # 是否启用启动时自动拉取
-    days: 7                           # 拉取最近 N 天的数据
+    days: 2                           # 拉取最近 N 天的数据
 
 
 # ===============================================================
